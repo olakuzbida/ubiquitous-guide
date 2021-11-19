@@ -1,0 +1,35 @@
+.navigation {
+    margin: 10px;
+}
+
+.navigation__list {
+    list-style: none;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.navigation__item {
+    color: #044e38;
+    text-decoration-line: none;
+    margin-left: 20px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #044e38;
+    font-size: 20px;
+}
+
+.navigation__link:hover {
+    color: #056e4f;
+}
+
+.navigation__link:active {
+    color: #023426;
+}
+
+.navigation__link:visited {
+    color: #414443
+}

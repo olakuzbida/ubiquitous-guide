@@ -1,0 +1,8 @@
+.skills__list {
+    list-style:none;
+    padding-left: 15px;
+}
+
+.skills__item {
+    padding: 5px;
+}

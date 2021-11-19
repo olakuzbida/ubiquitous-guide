@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/script.js"></script>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/skills.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
+    <title>Moja strona</title>
+</head>
+
+<body class="body">
+    <main>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#about-me" class="navigation__link">O mnie</a></li>
+                <li class="navigation__item"><a href="#career" class="navigation__link">Kariera zawodowa</a></li>
+                <li class="navigation__item"><a href="#skills" class="navigation__link">Umiejętności</a></li>
+                <li class="navigation__item"><a href="#contact" class="navigation__link">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <img class="image" src="images/20210301_100002w.jpg" alt="aleksandra">
+        </div>
+        <section class="section section--color" id="about-me">
+            <h1 class="headline">O mnie</h1>
+            <p class="paragraph">Doświadczona manager marketingu we wszystkich aspektach opracowywania strategii i
+                taktyki marketingowej, która jest dostosowana do strategii biznesowej firmy.
+                Obszary specjalizacji obejmują zarządzanie projektami, analizę danych, badanie potrzeb konsumenckich,
+                opracowywanie modeli sprzedaży i osiąganie wyniku finansowego.
+                Z naturalnymi zdolnościami przywódczymi, skuteczna w odpowiedniej organizacji pracy, wydajności i
+                współpracy.</p>
+            <button class="button"><span class="buttonText">Zmień kolor sekcji</span></button>
+        </section>
+        <section class="section" id="career">
+            <h2 class="headline">Kariera zawodowa</h2>
+            <div class="tableContainer">
+                <table class="table">
+                    <tr class="table__row table__cell">
+                        <th scope="col" class="table__cell table__header">Liczba</th>
+                        <th scope="col" class="table__cell table__header">Kiedy?</th>
+                        <th scope="col" class="table__cell table__header">Gdzie?</th>
+                        <th scope="col" class="table__cell table__header">Jaka pozycja?</th>
+                    </tr>
+                    <tr class="table__row table__cell">
+                        <th scope="row" class="table__cell">1</th>
+                        <td class="table__cell">01/2020 - obecnie</td>
+                        <td class="table__cell">Polska Press Grupa</td>
+                        <td class="table__cell">Manager ds. danych i monetyzacji
+                        </td>
+                    </tr>
+                    <tr class="table__row table__cell">
+                        <th scope="row" class="table__cell">2</th>
+                        <td class="table__cell">03/2018 - 03/2019</td>
+                        <td class="table__cell">Gemini Polska Sp. z o.o.</td>
+                        <td class="table__cell">Specjalista ds marketingu</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th scope="row" class="table__cell">3</th>
+                        <td class="table__cell">07/2015 - 03/2018</td>
+                        <td class="table__cell">Polska Press Grupa</td>
+                        <td class="table__cell">Specjalista ds online marketingu</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell">4</th>
+                        <td class="table__cell">01/2014 - 07/2015</td>
+                        <td class="table__cell">Polska Press Grupa</td>
+                        <td class="table__cell">Specjalista rozwoju serwisów internetowych</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="section skills" id="skills">
+            <h2 class="headline">Umiejętności</h2>
+            <ul class="skills__list">
+                <li class="skills__item">Opracowywanie planów biznesowych i marketingowych</li>
+                <li class="skills__item">Naturalne zdolności przywódcze</li>
+                <li class="skills__item">Zarządzanie cyklem życia produktów</li>
+                <li class="skills__item">Terminowość</li>
+                <li class="skills__item">Zarządzanie relacjami z klientami</li>
+                <li class="skills__item">Znajomość narzędzi do marketingu internetowego</li>
+                <li class="skills__item">Kreatywność i innowacyjność</li>
+                <li class="skills__item">Zarządzanie projektami</li>
+                <li class="skills__item">Doskonała umiejętność komunikacji pisemnej i werbalnej</li>
+                <li class="skills__item">Umiejętności perswazyjne</li>
+                <li class="skills__item">Samodzielność</li>
+                <li class="skills__item">Zdolność strategicznego myślenia</li>
+            </ul>
+            <h2 class="headline">Zainteresowania</h2>
+            <ul class="skills__list">
+                <li class="skills__item">Gastronomia
+                </li>
+                <li class="skills__item">Sporty wodne</li>
+                <li class="skills__item">Zdrowe odżywianie</li>
+                <li class="skills__item">Kosmetologia</li>
+                <li class="skills__item">Literatura psychologiczna</li>
+                <li class="skills__item">Podróże</li>
+            </ul>
+        </section>
+        <section class="section" id="contact">
+            <div>
+                <h2 class="headline">Kontakt</h2>
+                <form action="https://postman-echo.com/post" method="POST" class="form">
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">Pola oznaczone* są obowiązkowe</legend>
+                        <ul class="form_item">
+                            <li class="form__item">
+                                <label class="form__label">
+                                    Imię* <input name="name" required minlength="2" class="form__input">
+                                </label>
+                            </li>
+                            <li class="form__item">
+                                <label class="form__label">
+                                    Nazwisko* <input name="surname" required minlength="2" class="form__input">
+                                </label>
+                            </li>
+                            <li class="form__item">
+                                <label class="form__label">
+                                    Adres e-mail* <input name="email" required class="form__input">
+                                </label>
+                            </li>
+                            <li class="form__item">
+                                <label class="form__label">
+                                    Numer telefonu* <input name="phone" required pattern="[0-9]{9}" maxlength="9"
+                                        placeholder="123456789" class="form__input">
+                                </label>
+                            <li class="form__item">
+                            </li>
+                            <li class="form__item">
+                            <label class="form__label">
+                                Wiadomość <textarea name="message" maxlength="160" class="form__textarea"></textarea>
+                            </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <input type="submit" value="Wyślij" class="form__button">
+                </form>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="headline">Zabawa</h2>
+            <form class="form js-form">
+                <fieldset>
+                    <legend class="form__legend">Oblisz swoje BMI</legend>
+                    <ul>
+                        <li class="form__item">
+                            <label class="form__label">
+                                Twój wzrost <input name="height" type="number" min="1" required step="any"
+                                    class="js-height form__input">
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="form__label">
+                                Twoja waga <input name="weight" type="number" min="1" required step="any"
+                                    class="js-weight form__input">
+                            </label>
+                        </li>
+                    </ul>
+                    <button class="form__button">Oblicz</button>
+                    <p>Twoje BMI wynosi: <strong class="js-bmi">N/A</strong></p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        Dumnie stworzone podczas kursu CodeMe | 2021
+    </footer>
+</body>
+
+</html>
